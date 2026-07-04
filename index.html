@@ -19,12 +19,9 @@
 <script src="script.js"></script>
 
 </body>
-<<script src="script.js"></script>>
-<h2>BMI Calculator</h2>
+<input type="number" id="sys" placeholder="Systolic BP">
+<input type="number" id="dia" placeholder="Diastolic BP">
 
-<input type="number" id="weight" placeholder="Weight (kg)">
-<input type="number" id="height" placeholder="Height (cm)">
+<button onclick="checkBP()">Analyze</button>
 
-<button onclick="calculateBMI()">Calculate BMI</button>
-
-<h3 id="bmiResult"></h3>
+<h2 id="result"></h2>
